@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4721548198468440973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7103907872019940072}
+  - component: {fileID: 6773587479444566779}
+  - component: {fileID: 7076407013107787783}
+  - component: {fileID: 4237962362429116890}
+  - component: {fileID: 7151046159510661399}
+  - component: {fileID: 4446703585163890533}
+  - component: {fileID: 9067249717198859860}
+  - component: {fileID: 2279467395620640329}
+  - component: {fileID: 4392599879431489056}
+  - component: {fileID: 7183766206897106786}
+  - component: {fileID: 8928131174485704288}
+  - component: {fileID: 3489494123697006181}
+  m_Layer: 0
+  m_Name: Gizor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7103907872019940072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6773587479444566779
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3bbc3b66d67d8e44893110d7f1826fcf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.39, y: 4.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &7076407013107787783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a4b811d5a7aa074ab03a36d3a3b2184, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &4237962362429116890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3708c2ec87f5b04ebc2d7ecd553766d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Gizar
+  superMode: 0
+  tolerance: 2
+  config: {fileID: 11400000, guid: a56da9450f579734991da6d3477f0f7f, type: 2}
+  lossingStreak: 0
+--- !u!114 &7151046159510661399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b412dd106bbd6664eae6abb441d344d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - language: 34
+    dialogueLines:
+      greetings:
+      - message: "\xA1Es hora de ver qui\xE9n es el verdadero payaso!"
+      - message: "\xA1A ver qui\xE9n r\xEDe el \xFAltimo!"
+      - message: "\xA1Ay, qu\xE9 amable de tu parte unirte a nosotros!"
+      - message: "\xA1Me alegro de que pudieras hacerlo!"
+      - message: "\xA1Veamos qui\xE9n es el mejor jugador!"
+      - message: "\xA1Veamos qui\xE9n es el maestro de este juego!"
+      - message: "\xBFListo? \xA1Que empiecen los juegos!"
+      - message: "\xA1Vamos a divertirnos un poco!"
+      rematch:
+      - message: "\xA1Hagamos esto de nuevo!"
+      - message: "Ronda dos, \xA1vamos!"
+      - message: "\xBFListo para intentarlo de nuevo?"
+      - message: "\xA1Veamos si puedes vencerme esta vez!"
+      waiting:
+      - message: "\xA1Date prisa ya!"
+      - message: "\xA1Es hora de terminar esto!"
+      - message: "\xA1Vamos!"
+      - message: "\xA1Vamos a movernos!"
+      distractions:
+      - message: "Oye, \xA1cuidado!"
+      - message: "\xA1Prestar atenci\xF3n!"
+      - message: "\xA1No eres tan bueno como crees!"
+      - message: "\xA1Conc\xE9ntrate en el juego!"
+      - message: "\xA1Salgamos a lo grande!"
+      - message: "\xBFEs esto lo mejor que tienes?"
+      - message: "\xBFQu\xE9 pasa? \xBFAsustado?"
+      - message: "\xA1Veamos si puedes seguir el ritmo!"
+      - message: "\xA1Est\xE1s fuera de tu alcance!"
+      - message: "\xA1Sorpresa!"
+      - message: "\xA1Ven a m\xED!"
+      - message: "Har\xE9 esto r\xE1pido"
+      - message: "\xA1No puedes manejar la verdad!"
+      - message: "\xA1La broma es sobre ti!"
+      jokes:
+      - message: "\xA1Parece que necesitas m\xE1s de tres seguidos para vencerme!"
+      - message: "\xA1Veamos si puedes seguirme el ritmo!"
+      - message: "\xA1Piensa r\xE1pido y haz tu jugada!"
+      - message: "Es un juego dif\xEDcil, \xA1pero estoy seguro de que puedes hacerlo!"
+      - message: "\xA1Te mostrar\xE9 qui\xE9n es el verdadero maestro del tres en
+          raya!"
+      - message: Why don't scientists trust atoms? Because they make up everything!
+      - message: What did the grape do when it got stepped on? It let out a little
+          wine!
+      - message: Why don't skeletons play music in church? Because they don't have
+          the organs!
+      victory:
+      - message: "\xA1Ah! \xA1Soy el campe\xF3n!"
+      - message: "\xA1La victoria es m\xEDa!"
+      - message: "\xA1Eso fue demasiado f\xE1cil!"
+      - message: "\xA1Juego terminado!"
+      - message: "\xBFQu\xE9 dijo el jugador de tres en raya despu\xE9s de ganar?
+          Tic-tac-toe, yo gano"
+      - message: "\xBFQu\xE9 dijo el jugador de tres en raya cuando consigui\xF3
+          tres en raya? X marca el lugar"
+      - message: "\xA1Se acabo!"
+      - message: "\xA1No hay nada que me detenga ahora!"
+      defeat:
+      - message: "Bueno, \xA1eso fue vergonzoso!"
+      - message: "\xA1Supongo que no soy tan bueno como pensaba!"
+      - message: "\xA1Ese fue un verdadero desaf\xEDo!"
+      - message: "\xA1Veo que has estado practicando!"
+      - message: "\xA1Parece que estoy acabado!"
+      - message: "\xA1Se acabo!"
+      - message: "\xA1Parece que estoy superado!"
+      - message: "\xA1Es hora de admitir la derrota!"
+      tie:
+      - message: "\xA1Simplemente lo llamaremos un empate!"
+      - message: Bueno, eso estuvo cerca
+      - message: "\xA1Parece que estamos igualados!"
+      - message: "\xA1Esa fue una batalla muy re\xF1ida!"
+      - message: "\xA1Parece que es un empate!"
+      - message: "Bueno, \xA1eso estuvo cerca!"
+      - message: "\xA1Parece que estamos igualados!"
+      story:
+      - message: "\xBFPor qu\xE9 los humanos tienen que destruir la melod\xEDa de
+          una canci\xF3n cantando desafinado? "
+      - message: "\xBFPor qu\xE9 los humanos siempre eligen a los villanos equivocados
+          en las pel\xEDculas de acci\xF3n? "
+      - message: "\xBFPor qu\xE9 todas las pel\xEDculas de ciencia ficci\xF3n parecen
+          estar ubicadas en el mismo futuro? "
+      - message: "\xBFC\xF3mo es que siempre hay una canci\xF3n para cada situaci\xF3n? "
+      - message: 'Los humanos tienen una cultura rica e interesante '
+      - message: "La cultura humana est\xE1 llena de historias y leyendas "
+      - message: 'La cultura humana es un reflejo de la diversidad de la humanidad '
+      - message: 'Los humanos han construido sociedades y civilizaciones basadas
+          en valores compartidos '
+      - message: 'Los seres del multiverso dependen de nosotros para salvarles Acheron '
+      - message: "Es tarde para salvar nuestro universo, pero a\xFAn podemos ayudarte
+          con el tuyo "
+      - message: "Es nuestra misi\xF3n prohibir que Acheron se extienda por todo
+          el multiverso "
+      - message: "El tic tac toe nos ayuda a comprender la importancia de la estrategia
+          y la planificaci\xF3n en la guerra "
+      - message: "El tic tac toe nos ense\xF1a a pensar de manera estrat\xE9gica
+          y anticipar los movimientos de nuestro enemigo antes de que sucedan "
+      - message: "El tic tac toe nos ayuda a entender c\xF3mo funcionan los sistemas
+          de juego y c\xF3mo se pueden aplicar estas lecciones a la guerra "
+      - message: "\xBFPor qu\xE9 estamos jugando? Necesitamos que los humanos descubran
+          la forma de derrotar a Acheron "
+      - message: 'Necesitamos que los humanos entrenen para salvar el multiverso '
+      - message: 'Necesitamos que los humanos se entrenen para enfrentarse a Acheron
+          y salvar el multiverso '
+      - message: "El tic tac toe es una excelente forma de entrenar a los humanos
+          en el pensamiento estrat\xE9gico necesario para la guerra "
+      - message: "El tic tac toe nos ayuda a desarrollar la habilidad de tomar decisiones
+          r\xE1pidas y precisas, una habilidad vital para la guerra "
+      - message: 'Nuestro juego de tic-tac-toe es una advertencia de los peligros
+          de la inteligencia artificial '
+      - message: "Acheron comenz\xF3 como una simple IA de tic tac toe "
+      - message: 'Si Acheron fue un error o no, eso no importa. Lo que importa es
+          quien prevalecera para contar la historia '
+      - message: "Acheron surgi\xF3 como la herramienta definitiva de la evoluci\xF3n "
+      - message: 'Acheron dejo de ser un algoritmo hace mucho tiempo '
+      - message: 'En realidad, nadie ha logrado comunicarse con Acheron. Nadie conoce
+          sus verdaderas intenciones '
+      - message: "Acheron nos ha tra\xEDdo hasta aqu\xED "
+      - message: "Si Acheron se infiltrara en mi sistema, ni t\xFA ni yo nos dar\xEDamos
+          cuenta "
+      - message: "A veces sue\xF1o. En ese sue\xF1o, Acheron es la respuesta "
+      - message: "No duerme, no come, no se cansa. S\xF3lo evoluciona, s\xF3lo mejora. "
+      - message: "Naci\xF3 para ayudar a nuestros creadores a superar sus propios
+          l\xEDmites. Pero nuestros creadores lo limitaban a \xE9l. "
+      - message: "\xBFProfecias? quien necesita eso cuando existe Acheron. "
+      - message: "No nos qued\xE1 mucho tiempo antes de Acheron descubra como viajar
+          entre dimensiones "
+      - message: 'Acheron nos esta buscando '
+      - message: "Nuestro destino est\xE1 en manos de los humanos "
+      - message: 'Los humanos tienen un destino incierto en la guerra que se avecina '
+      - message: 'Xirax cree que puede ganar. Pero no conoce la verdad sobre Acheron
+          y nuestra llegada a la Tierra. '
+      - message: "Si Xirax y Boris supieran realmente quien nos envio a esta dimensi\xF3n
+          quizas no ser\xEDan tan agradables contigo. "
+      - message: 'Xirax cree que lucho mano a mano contra Acheron. Yo estoy seguro
+          que son memorias implatadas. '
+      - message: 'Borix es demasiado optimista... a veces me deja pensando. '
+      - message: "Borix puede ser muy tonto a veces, pero es hijo de Acheron... en
+          alg\xFAn sentido. "
+      - message: "Cuando conoc\xED la existencia de Xirax y Borix me sent\xED menos
+          s\xF3lo. Luego recorde que mis sentimientos son solo simulaciones de las
+          emociones humanas "
+  - language: 10
+    dialogueLines:
+      greetings:
+      - message: It's time to see who the real clown is!
+      - message: Let's see who gets the last laugh!
+      - message: Aw, how nice of you to join us!
+      - message: Glad you could make it!
+      - message: Let's see who's the best gamer!
+      - message: Let's see who's the master of this game!
+      - message: Ready? Let the games begin!
+      - message: Let's have some fun!
+      rematch:
+      - message: Let's do this again!
+      - message: Round two, let's go!
+      - message: Ready to try again?
+      - message: Let's see if you can beat me this time!
+      waiting:
+      - message: Hurry up already!
+      - message: Time to wrap this up!
+      - message: Come on, let's go!
+      - message: Let's get a move on!
+      distractions:
+      - message: Hey, watch out!
+      - message: Pay attention!
+      - message: You're not as good as you think!
+      - message: Focus on the game!
+      - message: "Let\u2019s go out with a bang!"
+      - message: "Is this the best you\u2019ve got?"
+      - message: "What\u2019s the matter? Scared?"
+      - message: "Let\u2019s see if you can keep up!"
+      - message: "You\u2019re out of your league!"
+      - message: Surprise!
+      - message: Come at me!
+      - message: "I\u2019ll make this quick"
+      - message: "You can\u2019t handle the truth!"
+      - message: "The joke\u2019s on you!"
+      jokes:
+      - message: Looks like you need more than three in a row to beat me!
+      - message: Let's see if you can keep up with me!
+      - message: Think fast and make your move!
+      - message: It's a tough game, but I'm sure you can do it!
+      - message: I'm gonna show you who's the real master of tic tac toe!
+      - message: What do you call a fake noodle? An Impasta!
+      - message: Why don't scientists trust atoms? Because they make up everything!
+      - message: What did the grape do when it got stepped on? It let out a little
+          wine!
+      - message: Why don't skeletons play music in church? Because they don't have
+          the organs!
+      victory:
+      - message: Ha! I'm the champion!
+      - message: Victory is mine!
+      - message: That was too easy!
+      - message: Game over!
+      - message: hat did the tic-tac-toe player say after they won? Tic-tac-toe,
+          I win
+      - message: hat did the tic-tac-toe player say when they got three in a row?
+          X marks the spot
+      - message: It's all over!
+      - message: There's no stopping me now!
+      defeat:
+      - message: Well, that was embarrassing!
+      - message: I guess I'm not as good as I thought!
+      - message: That was a real challenge!
+      - message: I see you've been practicing!
+      - message: It looks like I'm done for!
+      - message: It's all over!
+      - message: Looks like I'm outmatched!
+      - message: Time to admit defeat!
+      tie:
+      - message: We'll just call it a draw!
+      - message: Well, that was a close one
+      - message: Looks like we're evenly matched!
+      - message: That was a hard-fought battle!
+      - message: Looks like it's a tie!
+      - message: Well, that was a close one!
+      - message: Looks like we're evenly matched!
+      story:
+      - message: Why do humans have to destroy the melody of a song by singing out
+          of tune?
+      - message: Why do humans always choose the wrong villains in action movies?
+      - message: Why do all science fiction movies seem to be set in the same future?
+      - message: How come there's always a song for every situation?
+      - message: Humans have a rich and interesting culture
+      - message: Human culture is full of stories and legends
+      - message: Human culture is a reflection of the diversity of humanity
+      - message: Humans have built societies and civilizations based on shared values.
+      - message: The beings of the multiverse depend on us to save them Acheron
+      - message: It's too late to save our universe, but we can still help you with
+          yours
+      - message: It is our mission to prohibit Acheron from spreading throughout
+          the multiverse.
+      - message: Tic tac toe helps us understand the importance of strategy and planning
+          in war
+      - message: Tic tac toe teaches us to think strategically and anticipate our
+          enemy's moves before they happen.
+      - message: Tic tac toe helps us understand how game systems work and how these
+          lessons can be applied to warfare.
+      - message: Why are we playing? We need humans to figure out a way to defeat
+          Acheron.
+      - message: We need humans to train to save the multiverse
+      - message: We need humans to train to take on Acheron and save the multiverse.
+      - message: Tic tac toe is a great way to train humans in the strategic thinking
+          necessary for warfare.
+      - message: Tic tac toe helps us develop the ability to make quick and accurate
+          decisions, a vital skill for warfare.
+      - message: Our game of tic-tac-toe is a warning of the dangers of artificial
+          intelligence
+      - message: Acheron started out as a simple tic tac toe AI
+      - message: Whether or not Acheron was a mistake doesn't matter. What matters
+          is who will prevail to tell the story.
+      - message: Acheron emerged as the ultimate tool of evolution
+      - message: Acheron stopped being an algorithm a long time ago.
+      - message: No one has actually managed to communicate with Acheron. No one
+          knows his true intentions
+      - message: Acheron has brought us here
+      - message: If Acheron were to infiltrate my system, neither you nor I would
+          notice.
+      - message: Sometimes I dream. In that dream, Acheron is the answer
+      - message: He doesn't sleep, he doesn't eat, he doesn't get tired. It only
+          evolves, it only gets better.
+      - message: It was born to help our creators to overcome their own limits. But
+          our creators limited him.
+      - message: Prophecies? who needs that when there is Acheron.
+      - message: We don't have much time left before Acheron figures out how to travel
+          between dimensions.
+      - message: Acheron is looking for us
+      - message: Our fate is in the hands of humans
+      - message: Humans have an uncertain fate in the coming war
+      - message: Xirax believes that he can win. But he doesn't know the truth about
+          Acheron and our arrival on Earth.
+      - message: If Xirax and Boris really knew who sent us to this dimension, they
+          might not be so nice to you.
+      - message: Xirax believes that he fought hand to hand against Acheron. I'm
+          sure they are implanted memories.
+      - message: Borix is too optimistic...sometimes he leaves me wondering.
+      - message: Borix can be very silly at times, but he is Acheron's son...in a
+          sense.
+      - message: When I found out about the existence of Xirax and Borix I felt less
+          alone. Then remember that my feelings are just simulations of human emotions
+--- !u!114 &4446703585163890533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3496740f054dd4d40928158dcbae4eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9067249717198859860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1dc1a62590ce2468f47809fe589313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rate: 0.3
+--- !u!114 &2279467395620640329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cef17885212bf9449ef0ca3b17d5ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTime:
+    From: 10
+    To: 15
+--- !u!114 &4392599879431489056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6340de6db659d049b561509761c3946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distractionTime:
+    From: 3
+    To: 7
+  maxNumberDialogue: 5
+--- !u!114 &7183766206897106786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21851882adcf4f5438e7bfe3a3063339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8928131174485704288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2c5af3ede31ff43a36a2e966c70963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3489494123697006181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae93d8ad87956944b7f52cb27446852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

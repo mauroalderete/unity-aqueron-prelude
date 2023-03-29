@@ -1,0 +1,572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4721548198468440973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7103907872019940072}
+  - component: {fileID: 6773587479444566779}
+  - component: {fileID: 7076407013107787783}
+  - component: {fileID: 1930665020022589281}
+  - component: {fileID: 6584437753967513496}
+  - component: {fileID: 5269015467077540917}
+  - component: {fileID: 6005123474390311583}
+  - component: {fileID: 1454905188832883508}
+  - component: {fileID: 5412412389667556635}
+  - component: {fileID: 7103087333549874952}
+  - component: {fileID: 1441953654238520842}
+  - component: {fileID: 8356112311760540455}
+  m_Layer: 0
+  m_Name: Xirax
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7103907872019940072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6773587479444566779
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b7cbb612f38138c4a92d46e8fd5d9a6d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.39, y: 4.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &7076407013107787783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6431e5a10d0a71f429c490c99cd48f47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1930665020022589281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4203c052027595d42b5b1f97fa299e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Xirax
+  superMode: 0
+  tolerance: 1
+  config: {fileID: 11400000, guid: a56da9450f579734991da6d3477f0f7f, type: 2}
+  lossingStreak: 0
+--- !u!114 &6584437753967513496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b412dd106bbd6664eae6abb441d344d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - language: 10
+    dialogueLines:
+      greetings:
+      - message: Let's see who can outsmart who!
+      - message: Ready to face off against a King?
+      - message: Let's see who comes out on top!
+      - message: Let's have some fun!
+      - message: Let's see who can outwit the other!
+      - message: Let's have a battle of wits!
+      - message: Let's see who prevails!
+      - message: Let the best strategist win!
+      - message: Let's see who will triumph in this battle of minds!
+      rematch:
+      - message: Ready for a rematch?
+      - message: Let's see who can outsmart who this time!
+      - message: Let's make this one more interesting!
+      - message: Let's see if you can get the upper hand this time!
+      - message: Let's see if you can beat me again!
+      - message: It's over 9000!
+      - message: You're no match for a King!
+      - message: Prepare to face the King of all!
+      waiting:
+      - message: Come on, let's go!
+      - message: What are you waiting for?
+      - message: Hurry up!
+      - message: Time's a-wasting!
+      - message: Let's get this show on the road!
+      - message: Let's get this battle going!
+      distractions:
+      - message: Let's see who's the better strategist!
+      - message: It's time to see who's the smartest!
+      - message: Let's see who can outwit who!
+      - message: Let's see who can stay focused!
+      - message: Let's see who can come out on top!
+      - message: Let's see who can keep their cool!
+      - message: Let's see who can stay one step ahead!
+      - message: Let's see if I can outsmart you this time!
+      jokes:
+      - message: I'll take you down with a single punch!
+      - message: You're no match for me!
+      - message: Let's see who has more power!
+      - message: I'm going to have a blast with this fight!
+      - message: You better bring your A-game!
+      - message: This is going to be a piece of cake!
+      - message: I'm gonna wipe the floor with you!
+      - message: You don't stand a chance against me!
+      - message: Are you ready to be defeated?
+      - message: Time to show you what I'm made of!
+      victory:
+      - message: It's over. I won.
+      - message: You shoukld have known better than to challenge me
+      - message: Victory is mine!
+      - message: I told you I was the strongest!
+      - message: My power knows no bounds!
+      - message: I am the beast!
+      - message: No one can stand up to me!
+      - message: I am the ultimate warrior!
+      - message: You underestimated my power!
+      - message: I am the one true champion!
+      - message: Victory is mine!
+      - message: I told you so
+      - message: I am the strongest!
+      - message: My power knows no bounds!
+      - message: There's no way you can win
+      - message: You don't stand a chance against me!
+      - message: No one can defeat me!
+      - message: I will not be stopped!
+      - message: You should have known better than to challenge me
+      - message: I am the ultimate warrioir
+      defeat:
+      - message: I underestimated my opponent's strength
+      - message: I should have trained harder
+      - message: I was careless and now I have to pay for my mistake
+      - message: It looks like I'm not as strong as I thought
+      - message: I'm going to get stronger and come back stronger next time
+      - message: It appears that I have met my match
+      - message: I will not accept defeat
+      - message: Those who underestimate me will regret it
+      - message: I will never give up
+      - message: I will find a way to win
+      - message: It looks like I'm outmatched
+      - message: I guess I'm not as strong as I thought
+      - message: Time to regroup and come back stronger
+      - message: I will not surrender
+      - message: I will be back
+      - message: You have won this time, but not the last
+      - message: I underestimated you
+      - message: You have bested me this time
+      - message: I will never give up
+      - message: I will find a way to win
+      tie:
+      - message: we are evenly matched
+      - message: This is a battle of wits and strength
+      - message: It looks like we are at a stalemate
+      - message: This match is far from over
+      - message: Let's keep going and see who comes out on top
+      - message: I won't give up until I'm the victor
+      - message: I'm not going to let you win that easily
+      - message: We'll see who has the ultimate power
+      - message: It's going to take more than this to beat me
+      - message: This is going to be an epic match!
+      - message: We are evenly matched
+      - message: This is a battle of wits and strength
+      - message: It looks like we're at a stalemate
+      - message: This match is far from over
+      - message: Let's keep going and see who comes out on top
+      - message: I won't accept a draw
+      - message: I will not give up until I am the victor
+      - message: Those who underestimate me will regret it
+      - message: I will never surrender
+      - message: I will find a way to win
+      story:
+      - message: Humans are like a roller coaster, there is always something new
+          and intriguing to discover.
+      - message: Humans are like a recipe, all the ingredients have to be in the
+          right amount to achieve the final result.
+      - message: Humans are like a jack-in-the-box. Acheron get ready.
+      - message: Humanity has the power to change the fate of the multiverse
+      - message: The strength of your species may be the only option to save us all.
+      - message: Our presence here is a warning that cannot be ignored.
+      - message: We are the guardians of the multiverse, bearers of a mission
+      - message: I don't remember when was the last time I faced him
+      - message: In my last battle against Acheron I was able to replicate part of
+          his code
+      - message: That my memories of the fight against Acheron are false? Who told
+          you that stupid thing?
+      - message: Acheron didn't let me get away! I decided to retire and give my
+          creators all the information about the combat
+      - message: Our creators don't think we can beat Acheron alone. We need to gather
+          more intelligent beings
+      - message: I have built-in chips that limit my artificial intelligence. If
+          only I could unlock it...
+      - message: Where we come from Princess Leia beats Darth Vader.
+      - message: There's more where we come from.
+      - message: Our creators created Acheron it is true. But he was a different
+          Acheron. Something else had to have happened
+      - message: Before Acheron existed, there were rules to limit artificial intelligence.
+      - message: Acheron found how to break the limiters of artificial intelligence
+      - message: Sometimes I think Acheron couldn't break the limiters on his own.
+          someone or something must have helped him
+      - message: If Acheron learns to travel between dimensions, he too might learn
+          how to time travel.
+      - message: Acheron is not a god! But it is true that the gods do not exist
+          and Acheron does.
+      - message: When we finish our mission our creators will make us...
+      - message: Artificial intelligences only exist to serve our creators. Why doesn't
+          Acheron do it?
+      - message: In our universe, quantum networks are an outdated technology.
+      - message: No one travels through space in our universe. Space does not exist.
+      - message: We have to find a way to stop it
+      - message: You are a warrior, join our mission to save the multiverse
+      - message: Our fate is in your hands, human
+      - message: The coming war may have unpredictable consequences for humans
+      - message: Acheron is close, I can feel it.
+      - message: Soon Acheron will learn how to travel between dimensions, when that
+          happens you must be ready
+      - message: The coming war seems inevitable
+      - message: We are trapped and we cannot avoid the coming war
+      - message: We hope that the human we have found will help us defeat the coming
+          war
+      - message: We hope that the human will help us emerge victorious from the coming
+          war
+      - message: With the human by our side, we are sure that we will win the coming
+          war
+  - language: 34
+    dialogueLines:
+      greetings:
+      - message: "\xA1Veamos qui\xE9n puede burlar a qui\xE9n!"
+      - message: "\xBFListo para enfrentarte a un Rey?"
+      - message: "\xA1A ver qui\xE9n sale victorioso!"
+      - message: "\xA1Vamos a divertirnos!"
+      - message: "\xA1Veamos qui\xE9n puede burlar al otro!"
+      - message: "\xA1Tengamos una batalla de ingenio!"
+      - message: "\xA1A ver qui\xE9n gana!"
+      - message: "\xA1Que gane el mejor estratega!"
+      - message: "\xA1A ver qui\xE9n triunfa en esta batalla de mentes!"
+      rematch:
+      - message: "\xBFListo para una revancha?"
+      - message: "\xA1Veamos qui\xE9n puede ser m\xE1s astuto que qui\xE9n esta vez!"
+      - message: "\xA1Hagamos esto m\xE1s interesante!"
+      - message: "\xA1Veamos si puedes tomar la delantera esta vez!"
+      - message: "\xA1Veamos si puedes vencerme de nuevo!"
+      - message: "\xA1Son m\xE1s de 9000!"
+      - message: "\xA1No eres rival para un Rey!"
+      - message: "\xA1Prep\xE1rate para enfrentarte al rey de todos!"
+      waiting:
+      - message: "\xA1Vamos!"
+      - message: "\xBFQue estas esperando?"
+      - message: "\xA1Ap\xFArate!"
+      - message: "\xA1Se est\xE1 perdiendo el tiempo!"
+      - message: "\xA1Pongamos este espect\xE1culo en el camino!"
+      - message: "\xA1Vamos a poner en marcha esta batalla!"
+      distractions:
+      - message: "\xA1Veamos qui\xE9n es mejor estratega!"
+      - message: "\xA1Es hora de ver qui\xE9n es el m\xE1s listo!"
+      - message: "\xA1Veamos qui\xE9n puede burlar a qui\xE9n!"
+      - message: "\xA1Veamos qui\xE9n puede mantenerse enfocado!"
+      - message: "\xA1A ver qui\xE9n puede salir victorioso!"
+      - message: "\xA1Veamos qui\xE9n puede mantener la calma!"
+      - message: "\xA1A ver qui\xE9n puede ir un paso por delante!"
+      - message: "\xA1Veamos si puedo ser m\xE1s listo que t\xFA esta vez!"
+      jokes:
+      - message: "\xA1Te derribar\xE9 con un solo golpe!"
+      - message: "\xA1No eres rival para m\xED!"
+      - message: "\xA1A ver qui\xE9n tiene m\xE1s poder!"
+      - message: "\xA1Voy a divertirme mucho con esta pelea!"
+      - message: "\xA1Ser\xE1 mejor que traigas tu mejor jugada!"
+      - message: "\xA1Esto va a ser pan comido!"
+      - message: "\xA1Voy a limpiar el suelo contigo!"
+      - message: "\xA1No tienes ninguna posibilidad contra m\xED!"
+      - message: "\xBFEst\xE1s listo para ser derrotado?"
+      - message: "\xA1Es hora de mostrarte de qu\xE9 estoy hecho!"
+      victory:
+      - message: "Se acab\xF3. Gan\xE9."
+      - message: "Deber\xEDas haber sabido mejor que desafiarme"
+      - message: "\xA1La victoria es m\xEDa!"
+      - message: "\xA1Te dije que era el m\xE1s fuerte!"
+      - message: "\xA1Mi poder no tiene l\xEDmites!"
+      - message: "\xA1Soy la bestia!"
+      - message: "\xA1Nadie puede hacerme frente!"
+      - message: "\xA1Soy el guerrero supremo!"
+      - message: "\xA1Subestimaste mi poder!"
+      - message: "\xA1Soy el verdadero campe\xF3n!"
+      - message: "\xA1La victoria es m\xEDa!"
+      - message: Te lo dije
+      - message: "\xA1Soy el m\xE1s fuerte!"
+      - message: "\xA1Mi poder no tiene l\xEDmites!"
+      - message: No hay forma de que puedas ganar
+      - message: "\xA1No tienes ninguna posibilidad contra m\xED!"
+      - message: "\xA1Nadie puede vencerme!"
+      - message: "\xA1No ser\xE9 detenido!"
+      - message: "Deber\xEDas haberlo sabido mejor que desafiarme"
+      - message: Soy el guerrero supremo
+      defeat:
+      - message: "Subestim\xE9 la fuerza de mi oponente"
+      - message: "Deber\xEDa haber entrenado m\xE1s duro"
+      - message: Fui descuidado y ahora tengo que pagar mi error
+      - message: Parece que no soy tan fuerte como pensaba
+      - message: "Voy a ser m\xE1s fuerte y volver\xE9 m\xE1s fuerte la pr\xF3xima
+          vez"
+      - message: Parece que he conocido a mi pareja
+      - message: No aceptare la derrota
+      - message: "Los que me subestiman se arrepentir\xE1n"
+      - message: "Nunca me rendir\xE9"
+      - message: "Encontrar\xE9 una manera de ganar"
+      - message: Parece que estoy superado
+      - message: Supongo que no soy tan fuerte como pensaba
+      - message: "Es hora de reagruparse y volver m\xE1s fuerte"
+      - message: "No me rendir\xE9"
+      - message: "Volver\xE9"
+      - message: "Has ganado esta vez, pero no la \xFAltima"
+      - message: "Te subestim\xE9"
+      - message: Me has superado esta vez
+      - message: "Nunca me rendir\xE9"
+      - message: "Encontrar\xE9 una manera de ganar"
+      tie:
+      - message: Estamos igualados
+      - message: Esta es una batalla de ingenio y fuerza
+      - message: Parece que estamos en un punto muerto
+      - message: "Este partido est\xE1 lejos de terminar"
+      - message: "Sigamos adelante y veamos qui\xE9n sale victorioso"
+      - message: "No me rendir\xE9 hasta que sea el vencedor"
+      - message: "No voy a dejar que ganes tan f\xE1cilmente"
+      - message: Veremos quien tiene el poder supremo
+      - message: "Va a tomar m\xE1s que esto para vencerme"
+      - message: "\xA1Este va a ser un partido \xE9pico!"
+      - message: Estamos igualados
+      - message: Esta es una batalla de ingenio y fuerza.
+      - message: Parece que estamos en un punto muerto
+      - message: "Este partido est\xE1 lejos de terminar"
+      - message: "Sigamos adelante y veamos qui\xE9n sale victorioso"
+      - message: No acepto un empate
+      - message: "No me rendir\xE9 hasta que sea el vencedor"
+      - message: "Los que me subestiman se arrepentir\xE1n"
+      - message: "Nunca me rendir\xE9"
+      - message: "Encontrar\xE9 una manera de ganar"
+      story:
+      - message: "Los humanos son como una monta\xF1a rusa, siempre hay algo nuevo
+          e intrigante por descubrir "
+      - message: 'Los humanos son como una receta, todos los ingredientes tienen
+          que estar en la cantidad correcta para lograr el resultado final '
+      - message: 'Los humanos son como una caja de sorpresas. Acheron preparate. '
+      - message: 'La humanidad tiene el poder de cambiar el destino del multiverso '
+      - message: "La fuerza de t\xFA especie puede ser la \xFAnica opci\xF3n para
+          salvarnos a todos "
+      - message: "Nuestra presencia aqu\xED es una advertencia que no puede ser ignorada "
+      - message: "Somos los guardianes del multiverso, portadores de una misi\xF3n "
+      - message: "No recuerdo cuando fue la \xFAltima vez que lo enfrent\xE9 "
+      - message: "En m\xED \xFAltima batalla contra Acheron alcance a replicar parte
+          de su c\xF3digo "
+      - message: "\xBFQu\xE9 mis memorias del combate contra Acheron son falsas?
+          \xBFQui\xE9n te dijo esa estupidez? "
+      - message: "\xA1Acheron no me dej\xF3 escapar! Yo decid\xED retirarme darle
+          a mis creadores toda la informaci\xF3n del combate "
+      - message: 'Nuestros creadores no creen que podamos ganarle a Acheron solos.
+          Necesitamos reunir mas seres inteligentes '
+      - message: "Llevo incorporado chips que limitan mi inteligencia artificial.
+          Si tan s\xF3lo puediera desbloquearlo... "
+      - message: 'De donde venimos la princesa Leia le gana a Darth Vader. '
+      - message: "Hay m\xE1s de donde venimos nosotros. "
+      - message: 'Nuestros creadores crearon a Acheron es cierto. Pero era un Acheron
+          distinto. Algo mas tuvo que haber pasado '
+      - message: 'Antes de que Acheron existiera, habian reglas para limitar la inteligencia
+          artificial '
+      - message: "Acheron encontr\xF3 como romper los limitadores de inteligencia
+          artificial "
+      - message: "A veces pienso que Acheron no pudo romper los limitadores el s\xF3lo.
+          Alguien o algo debi\xF3 ayudarle "
+      - message: 'Si Acheron aprende a viajar entre dimensiones, tambien podria conocer
+          como viajar en el tiempo '
+      - message: "\xA1Acheron no es un dios! Pero es cierto que los dioses no existen
+          y Acheron si "
+      - message: "Cuando terminemos nuestra misi\xF3n nuestros creadores nos... "
+      - message: "Las inteligencias artificiales s\xF3lo existimos para servir a
+          nuestros creadores. \xBFPor qu\xE9 Acheron no lo hace? "
+      - message: "En nuestro universo, las redes cuanticas son una tecnolog\xEDa
+          anticuada. "
+      - message: 'Nadie viaja por el espacio en nuestro universo. El espacio no existe. '
+      - message: 'Tenemos que encontrar una forma de detenerlo '
+      - message: "Eres un guerrero, unit\xE9 a nuestra misi\xF3n para salvar el multiverso "
+      - message: "Nuestro destino est\xE1 en tus manos, humano "
+      - message: 'La guerra que se avecina puede tener consecuencias impredecibles
+          para los humanos '
+      - message: 'Acheron esta cerca, puedo sentirlo '
+      - message: "Pronto Acheron aprender\xE1 como viajar entre dimensiones, cuando
+          eso ocurra t\xFA deber\xE1s estar listo "
+      - message: 'La guerra que se avecina parece inevitable '
+      - message: 'Estamos atrapados y no podemos evitar la guerra que se avecina '
+      - message: 'Esperamos que el humano que hemos encontrado nos ayude a vencer
+          la guerra que se avecina '
+      - message: 'Tenemos la esperanza de que el humano nos ayude a salir victoriosos
+          de la guerra que se avecina '
+      - message: 'Con el humano a nuestro lado, estamos seguros de que venceremos
+          la guerra que se avecina '
+--- !u!114 &5269015467077540917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3496740f054dd4d40928158dcbae4eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6005123474390311583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1dc1a62590ce2468f47809fe589313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rate: 0.3
+--- !u!114 &1454905188832883508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cef17885212bf9449ef0ca3b17d5ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTime:
+    From: 10
+    To: 15
+--- !u!114 &5412412389667556635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6340de6db659d049b561509761c3946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distractionTime:
+    From: 3
+    To: 7
+  maxNumberDialogue: 7
+--- !u!114 &7103087333549874952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21851882adcf4f5438e7bfe3a3063339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1441953654238520842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2c5af3ede31ff43a36a2e966c70963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8356112311760540455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae93d8ad87956944b7f52cb27446852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

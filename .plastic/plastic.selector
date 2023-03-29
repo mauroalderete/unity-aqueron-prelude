@@ -1,0 +1,4 @@
+repository "arcade-game-clone@rayquendev@cloud"
+  path "/"
+    br "/main"
+    co "/main"

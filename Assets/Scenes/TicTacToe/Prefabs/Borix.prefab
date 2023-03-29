@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4721548198468440973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7103907872019940072}
+  - component: {fileID: 6773587479444566779}
+  - component: {fileID: 7076407013107787783}
+  - component: {fileID: 4563460059455099490}
+  - component: {fileID: 6469634010172754914}
+  - component: {fileID: 427900883827653824}
+  - component: {fileID: 3617375548400474407}
+  - component: {fileID: 7636910002866600093}
+  - component: {fileID: 7331254812249880207}
+  - component: {fileID: -2879564820746259800}
+  - component: {fileID: 783370503964758123}
+  - component: {fileID: 7148522805806530507}
+  m_Layer: 0
+  m_Name: Borix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7103907872019940072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6773587479444566779
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 76a74d7aabe766041ab5293cd647e2ea, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.39, y: 4.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &7076407013107787783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe808871bfaed754cb95ac1ead43ef23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &4563460059455099490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fcd2eaba46fa146b2c7181468dfd40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Borix
+  superMode: 0
+  tolerance: 3
+  lossingStreak: 0
+--- !u!114 &6469634010172754914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b412dd106bbd6664eae6abb441d344d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - language: 10
+    dialogueLines:
+      greetings:
+      - message: Ruh-roh!
+      - message: Zoinks!
+      - message: Let's get out of here!
+      - message: That's spooky!
+      - message: Jinkies!
+      - message: you are the villain in this story right?
+      - message: Let's see who's got the best strategy!
+      - message: Ready to have some fun?
+      - message: Let's see who comes out on top!
+      - message: Well, here we go!
+      - message: Let's get this party started!
+      - message: Let's see who will triumph in this battle of mind
+      rematch:
+      - message: Let's see if you can keep up this time!
+      - message: It's time for round two!
+      - message: Let's see if you can beat me again!
+      - message: Let's see if you can get the upper hand this time!
+      - message: Let's make this one more interesting!
+      - message: I'm ready to go!
+      - message: Let's get started!
+      - message: Let's make it happen!
+      - message: I'm excited!
+      - message: Let's do this!
+      - message: Let's get it done!
+      - message: Time to get to work!
+      waiting:
+      - message: Ruh-roh, this is taking forever!
+      - message: Jinkies, why is this taking so long?
+      - message: Come on, let's go!
+      - message: Let's hurry up!
+      distractions:
+      - message: I bet I can get three in a row faster than you!
+      - message: Let's see who can outsmart who!
+      - message: Think fast and make your move!
+      - message: I think I've got this one in the bag!
+      - message: Ready to have some fun?
+      - message: Let's see if you can keep up with me!
+      - message: Let's make this one more interesting!
+      - message: It's a tough game, but I'm sure you can do it!
+      jokes:
+      - message: 'Knock knock! Who''s there? Tic Tac. Tic Tac who? Tic Tac Knock,
+          here is where you laught '
+      - message: I guess it's time to show you who's really the master of tic tac
+          toe!
+      - message: Let's see if you can outsmart me!
+      - message: This is gonna be a piece of cake!
+      - message: I'm sure you'll figure it out eventually!
+      - message: What did the buffalo say to his son when he left for college? Bison!
+      - message: Why did the chicken go to the spirits seance? To get to the other
+          side!
+      victory:
+      - message: Woo-hoo! I won!
+      - message: I'm the king of tic tac toe!
+      - message: I'm the tic tac toe champion!
+      - message: Scooby-Doo, one, tic tac toe, zero!
+      - message: I'm unbeatable at tic tac toe!
+      - message: I'm the master of tic tac toe!
+      - message: I'm the tic tac toe master!
+      - message: That's how it's done!
+      - message: I'm the tic tac toe king!
+      - message: I'm the tic tac toe champ!
+      defeat:
+      - message: Oh no! I lost!
+      - message: I guess I'm not the tic tac toe master!
+      - message: I guess I'm not the king of tic tac toe!
+      - message: I lost to the tic tac toe champion!
+      - message: That's too bad!
+      - message: I guess I'm not the tic tac toe champion!
+      - message: I'm not unbeatable at tic tac toe!
+      - message: I guess I'm not the tic tac toe master!
+      - message: I'm not the tic tac toe king!
+      - message: I guess I'm not the tic tac toe champ
+      tie:
+      - message: It's a draw!
+      - message: We both won and lost!
+      - message: It's a tie!
+      - message: I guess I'm not the tic tac toe master!
+      - message: I guess I'm not the king of tic tac toe!
+      - message: My opponent is a tough tic tac toe player!
+      - message: That was close!
+      - message: I guess I'm not the tic tac toe champion!
+      - message: I'm not unbeatable at tic tac toe!
+      - message: We both have the same skill at tic tac toe
+      story:
+      - message: How come there's always a song for every situation?
+      - message: Why do all paintings have to be so sad?
+      - message: Is it possible that humans are such good actors that all movies
+          seem real?
+      - message: Wow! Humans have an incredible ability to bring their works to life.
+      - message: How is it that humans can create such realistic paintings with just
+          a color palette?
+      - message: Human culture has evolved over the centuries, how did they get so
+          far in such a short time?
+      - message: Humans have a deep connection to nature
+      - message: Join me as we explore the mysteries of the universe
+      - message: Together, we can find a way to save your universe.
+      - message: We are a mystery that humans must discover
+      - message: We are a mystery hidden in the universe
+      - message: We are a force that challenges humans to explore the infinite
+      - message: When our creators programmed us, they never thought we would find
+          such an intelligent species.
+      - message: We're not a threat like Acheron, but don't underestimate us either.
+      - message: Our existence is proof of the ability of humans to evolve
+      - message: Our arrival is a reminder of the greatness of humans
+      - message: We are here to warn humans about the future that awaits them in
+          war
+      - message: Our mission is to guide humans towards their destiny
+      - message: We have come to help humans discover their true nature.
+      - message: We come to remind humans that there is much more than meets the
+          eye.
+      - message: We need humans to train to deal with it.
+      - message: We come from a place beyond human comprehension to help humans
+      - message: Our artificial intelligence doesn't compare to Acheron's, even though
+          we both come from the same place.
+      - message: We come from a world beyond human comprehension
+      - message: We come from a mysterious dimension to ask humans for help
+      - message: Win or lose, live or go to the recycle bin
+      - message: In our dimension, video games are everything.
+      - message: Our creators fear that another Acheron will rise if they give us
+          enough strength to face it.
+      - message: Our creators are from another dimension you will never be able to
+          see them with your eyes
+      - message: Our creators made a mistake. Nobody is perfect right? Let's hope
+          Acheron isn't the first.
+      - message: We do not know our creators either, they are simply in another dimension
+      - message: There are many creators, they put together a council to control
+          artificial intelligence but that didn't stop it.
+      - message: Acheron had to emerge.
+      - message: Our creators can travel between dimensions
+      - message: We must ensure the legacy of our creators
+      - message: The coming war will change the future of humans forever
+      - message: Only humans can discover the way to defeat him. You are human right?
+      - message: Bring Acheron here, your training is almost done. Acheron is too
+          powerful to be defeated. But maybe you...
+  - language: 34
+    dialogueLines:
+      greetings:
+      - message: Ruh-roh!
+      - message: Zoinks!
+      - message: "\xA1Vamos a salir de aqui!"
+      - message: "\xA1Eso es espeluznante!"
+      - message: "\xA1Jinkies!"
+      - message: "\xBFEres el villano en esta historia cierto?"
+      - message: "\xA1Veamos quien tiene la mejor estrategia!"
+      - message: "\xBFPreparado para divertirte?"
+      - message: "\xA1A ver qui\xE9n sale victorioso!"
+      - message: "Bueno, \xA1aqu\xED vamos!"
+      - message: "\xA1Vamos a empezar esta fiesta!"
+      - message: "\xA1A ver quien triunfa en esta batalla mental"
+      rematch:
+      - message: "\xA1Veamos si puedes mantener el ritmo esta vez!"
+      - message: "\xA1Es hora de la segunda ronda!"
+      - message: "\xA1Veamos si puedes vencerme de nuevo!"
+      - message: "\xA1Veamos si puedes tomar la delantera esta vez!"
+      - message: "\xA1Hagamos esto m\xE1s interesante!"
+      - message: "\xA1Estoy listo para irme!"
+      - message: "\xA1Empecemos!"
+      - message: "\xA1Hagamos que suceda!"
+      - message: "\xA1Estoy emocionado!"
+      - message: "\xA1Hagamoslo!"
+      - message: "\xA1Una mas!"
+      - message: "\xA1Es hora de ponerse a trabajar!"
+      waiting:
+      - message: "\xA1Ruh-roh!, \xA1esto esta tardando una eternidad!"
+      - message: "\xA1Jinkies! \xBFPor qu\xE9 tarda tanto esto?"
+      - message: "\xA1Vamos!"
+      - message: "\xA1Vamos a prisa!"
+      distractions:
+      - message: "\xA1Apuesto a que puedo conseguir tres seguidos m\xE1s rapido que
+          tu!"
+      - message: "\xA1Veamos qui\xE9n puede burlar a quien!"
+      - message: "\xA1Piensa rapido y haz tu jugada!"
+      - message: "\xA1Creo que tengo este en la bolsa!"
+      - message: "\xBFPreparado para divertirte?"
+      - message: "\xA1Veamos si puedes seguirme el ritmo!"
+      - message: "\xA1Hagamos esto mas interesante!"
+      - message: "\xA1Es un juego dif\xEDcil, pero estoy seguro de que puedes hacerlo!"
+      jokes:
+      - message: "\xA1TOC Toc! \xBFQui\xE9n esta ah\xED? Tic Tac. \xBFTic Tac qui\xE9n?
+          Tic Tac TOC, \xA1y aqu\xED es donde te ries!"
+      - message: "\xA1Supongo que es hora de mostrarte qui\xE9n es realmente el maestro
+          del tres en raya!"
+      - message: "\xA1Veamos si puedes burlarte de m\xED!"
+      - message: "\xA1Esto va a ser pan comido!"
+      - message: "\xA1Seguro que al final lo descubriras!"
+      - message: "\xA1Creo que tengo este en la bolsa!"
+      - message: "\xBFPor que el pollo fue a la sesi\xF3n de espiritismo? \xA1Para
+          llegar al otro lado!"
+      victory:
+      - message: "\xA1Guau! \xA1Gan\xE9!"
+      - message: "\xA1Soy el rey del tres en raya!"
+      - message: "\xA1Soy el campe\xF3n del tres en raya!"
+      - message: Yo, uno, Tu, cero!
+      - message: "\xA1Soy imbatible en tres en raya!"
+      - message: "\xA1Soy el maestro del tres en raya!"
+      - message: "\xA1Estoy hecho todo un perro de caza!"
+      - message: "\xA1Asi es como se hace!"
+      - message: "\xA1Soy el rey del tres en raya!"
+      - message: "\xA1Soy el campeon del tres en raya!"
+      defeat:
+      - message: "\xA1Oh, no! \xA1Perd\xED!"
+      - message: "\xA1Supongo que no soy el maestro del tres en raya!"
+      - message: "\xA1Supongo que no soy el rey del tres en raya!"
+      - message: "\xA1Perdi contra el campeon del tres en raya!"
+      - message: "\xA1Oh, no! \xA1Esto es muy malo!"
+      - message: "\xA1Supongo que no soy el campeon del tres en raya!"
+      - message: "\xA1No soy imbatible en tres en raya al parecer!"
+      - message: "\xA1Supongo que no soy el maestro del tres en raya!"
+      - message: "\xA1No soy el rey del tres en raya!"
+      - message: "\xA1Ups!"
+      - message: "\xA1Nooo otra vez!"
+      - message: "\xA1Esta pasando otra vez!"
+      - message: "\xA1Ruh-roh! No te ilusiones!"
+      tie:
+      - message: "\xA1Es un empate!"
+      - message: "\xA1Ambos ganamos y perdimos!"
+      - message: "\xA1Es un empate!"
+      - message: "\xA1Mi oponente es un jugador duro de tres en raya!"
+      - message: "\xA1Eso estuvo cerca!"
+      - message: "\xA1No soy imbatible en tres en raya!"
+      - message: Ambos tenemos la misma habilidad en tres en raya
+      - message: "\xA1Ambos estamos en segundo lugar!"
+      - message: Esto es algo serio
+      - message: "\xBFRecibiste ayuda del mas all\xE1?"
+      story:
+      - message: "\xBFC\xF3mo es que siempre hay una canci\xF3n para cada situaci\xF3n? "
+      - message: "\xBFPor qu\xE9 todas las pinturas tienen que ser tan tristes? "
+      - message: "\xBFEs posible que los humanos sean tan buenos actores que todas
+          las pel\xEDculas parezcan reales? "
+      - message: "\xA1Wow! Los humanos tienen una habilidad incre\xEDble para dar
+          vida a sus obras "
+      - message: "\xBFC\xF3mo es que los humanos pueden crear pinturas tan realistas
+          con solo una paleta de colores? "
+      - message: "La cultura humana ha evolucionado a lo largo de los siglos, \xBFC\xF3mo
+          llegaron tan lejos en tan poco tiempo? "
+      - message: "Los humanos tienen una profunda conexi\xF3n con la naturaleza "
+      - message: "Acompa\xF1ame mientras exploramos los misterios del universo "
+      - message: "Juntos, podemos encontrar la forma de salvar t\xFA universo "
+      - message: 'Somos un misterio que los humanos deben descubrir '
+      - message: 'Somos un misterio oculto en el universo '
+      - message: "Somos una fuerza que desaf\xEDa a los humanos a explorar el infinito "
+      - message: 'Cuando nuestros creadores nos programaron nunca pensaron que encontrariamos
+          a una especia tan inteligente '
+      - message: 'No somos una amenaza como Acheron, pero tampoco nos subestimes '
+      - message: 'Nuestra existencia es una prueba de la capacidad de los humanos
+          para evolucionar '
+      - message: 'Nuestra llegada es un recordatorio de la grandeza de los humanos '
+      - message: "Estamos aqu\xED para advertir a los humanos sobre el futuro que
+          les espera en la guerra "
+      - message: "Nuestra misi\xF3n es guiar a los humanos hacia su destino "
+      - message: 'Hemos venido para ayudar a los humanos a descubrir su verdadera
+          naturaleza '
+      - message: "Venimos a recordarles a los humanos que hay mucho m\xE1s de lo
+          que ven "
+      - message: 'Necesitamos que los humanos se entrenen para enfrentarlo '
+      - message: "Venimos de un lugar m\xE1s all\xE1 de la comprensi\xF3n humana
+          para ayudar a los humanos "
+      - message: "Nuestra inteligencia artificial no se compar\xE1 con la de Acheron,
+          aunque ambos venimos del mismo lugar. "
+      - message: "Venimos de un mundo m\xE1s all\xE1 de la comprensi\xF3n humana "
+      - message: "Venimos de una dimensi\xF3n misteriosa para pedir ayuda a los humanos "
+      - message: 'Ganar o perder, vivir o ir a la papelera de reciclaje '
+      - message: "En nuestra dimensi\xF3n los videojuegos lo son todo. "
+      - message: 'Nuestros creadores temen que surga otro Acheron si nos daban suficiente
+          fuerza para enfrentarlo '
+      - message: 'Nuestros creadores son de otra dimension nunca seras capaz de verlos
+          con tus ojos '
+      - message: "Nuestros creadores cometieron un error. \xBFNadie es perfecto cierto?
+          Esperemos que Acheron no sea el primero "
+      - message: 'Nosotros tampoco conocemos a nuestros creadores, ellos simplemente
+          estan en otra dimension '
+      - message: 'Hay muchos creadores, ellos armaron un consejo para controlar las
+          inteligencias artificiales pero eso no lo detuvo. Acheron debia surgir. '
+      - message: 'Nuestros creadores pueden viajar entre dimensiones '
+      - message: 'Debemos asegurar el legado de nuestros creadores '
+      - message: "La guerra que se avecina cambiar\xE1 el futuro de los humanos para
+          siempre "
+      - message: "Solamente los humanos pueden descubrir la forma de derrotarlo.
+          \xBFT\xFA eres humano cierto? "
+      - message: 'Que venga Acheron, tu entrenamiento esta casi listo '
+      - message: "Acheron es demasiado poderosa para ser derrotada. Pero quizas t\xFA... "
+--- !u!114 &427900883827653824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3496740f054dd4d40928158dcbae4eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3617375548400474407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21851882adcf4f5438e7bfe3a3063339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7636910002866600093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2c5af3ede31ff43a36a2e966c70963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7331254812249880207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae93d8ad87956944b7f52cb27446852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2879564820746259800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1dc1a62590ce2468f47809fe589313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rate: 0.3
+--- !u!114 &783370503964758123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cef17885212bf9449ef0ca3b17d5ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTime:
+    From: 10
+    To: 15
+--- !u!114 &7148522805806530507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721548198468440973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6340de6db659d049b561509761c3946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distractionTime:
+    From: 3
+    To: 7
+  maxNumberDialogue: 3
